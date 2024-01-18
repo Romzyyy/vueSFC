@@ -1,5 +1,6 @@
 <template>
     <slot>this is default solout</slot>
+    <br>
     <p>hello, this is from student component my name is {{ studentName }} </p>
     <button @click="showData">click me</button>
 </template>
