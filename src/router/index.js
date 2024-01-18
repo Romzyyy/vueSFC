@@ -6,6 +6,7 @@ import UserDetailVue from '@/views/UserDetail.vue'
 import UserProfileVue from '@/views/UserProfile.vue'
 import UserPostVue from '@/views/UserPost.vue'
 import UserIndexVue from '@/views/UserIndex.vue'
+import TodoListVue from '@/views/TodoList.vue'
 
 const routes = [
     { path: '', component: DashboardVue },
@@ -24,6 +25,7 @@ const routes = [
             { path: '/user/:id/profile', component: UserProfileVue },
         ],
     },
+    { path: '/todolist', component: TodoListVue },
 ]
 
 const router = createRouter({
